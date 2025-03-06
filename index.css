@@ -1,9 +1,10 @@
+
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
     background: #fff;
-    color: #000;
+    color: #120101;
 }
 
 header {
@@ -28,7 +29,7 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: 500;
 }
 
@@ -131,7 +132,7 @@ h1 {
 
 .blue {
     background: blue;
-    border-radius: ;
+    border-radius:64px 96px 128px 32px  ;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -179,7 +180,7 @@ h1 {
 .star {
     width: 25px;
     height: 25px;
-    background: black;
+    background: black !important;
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }
 
@@ -266,13 +267,13 @@ body {
 /* Positioning stat blocks */
 .stat-block.black {
     background-color: black;
-    top: 25%;
-    right: 20%;
+    top: 60%;
+    right: 30%;
 }
 
 .stat-block.green {
     background-color: #66cc99;
-    bottom: 10%;
+    bottom: 60%;
     left: 15%;
 }
 
@@ -282,30 +283,31 @@ body {
 }
 
 .yellow-half {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     background: yellow;
-    border-radius: 0 50% 50% 50%;
-    top: 40%;
+    border-radius: 0 50% 40% 60%;
+    top: 50%;
     right: 5%;
 }
 
 .red-circle {
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     background: red;
     border-radius: 50%;
-    bottom: 5%;
-    right: 30%;
+    top: 40%;
+    right: 40%;
 }
 
 .star::before {
     content: "✷";
-    font-size: 40px;
-    color: black;
+    font-size: 100px;
+    color: rgb(51, 72, 214);
     position: absolute;
-    top: 45%;
-    left: 45%;
+    top: 30%;
+    left: 0%;
+    transform: translate(-50%, -30%);
 }
 
 .small-triangle::before {
@@ -316,3 +318,5 @@ body {
     bottom: 5%;
     right: 5%;
 }
+
+/*  */
