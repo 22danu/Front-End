@@ -1,0 +1,318 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    height: 70px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.join-btn {
+    padding-left: 20em;
+    background: black;
+    color: white;
+    border: none;
+    display: flex;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 600;
+    margin: 0 20px; 
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 50px;
+}
+
+.text-content {
+    margin-top: -100px;
+    max-width: 450px;
+    padding-left: 3em;
+}
+
+.tagline {
+    color: blue;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #333;
+}
+
+.cta-btn {
+    background: yellow;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.login-text {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.login-text a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.graphics {
+    display: flex;
+    align-items: center;
+}
+
+.image-group {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px; /* Adjust based on requirement */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-group img {
+    position: absolute;
+    width: 80px; /* Adjust circle size */
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.yellow {
+    background: yellow;
+    border-radius: 64px 96px 128px 32px !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.blue {
+    background: blue;
+    border-radius: ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.purple {
+    background: purple;
+    height: 250px !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 32px 128px 128px 128px !important;
+}
+
+.stat {
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.stat p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.stat h2 {
+    margin: 5px 0 0;
+    font-size: 24px;
+}
+
+.black {
+    background: black;
+}
+
+.green {
+    background: green;
+}
+
+.shapes {
+    position: absolute;
+    display: flex;
+    gap: 15px;
+    top: 20%;
+    left: 50%;
+}
+
+.star {
+    width: 25px;
+    height: 25px;
+    background: black;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.triangle {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid black;
+}
+
+.small-circle {
+    width: 15px;
+    height: 15px;
+    background: red;
+    border-radius: 50%;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.container {
+    position: relative;
+    width: 650px;
+    height: 650px;
+    margin-right: 4em;
+}
+
+.image-block {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Positioning images */
+.image-block.yellow { top: 0; left: 50%; transform: translateX(-50%); background: yellow; }
+.image-block.purple { top: 10%; right: 0; background: purple; }
+.image-block.blue { bottom: 33%; left: 30%; background: blue; }
+
+/* Styling stat blocks */
+.stat-block {
+    position: absolute;
+    width: 140px;
+    height: 80px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.stat-block p {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.stat-block h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Positioning stat blocks */
+.stat-block.black {
+    background-color: black;
+    top: 25%;
+    right: 20%;
+}
+
+.stat-block.green {
+    background-color: #66cc99;
+    bottom: 10%;
+    left: 15%;
+}
+
+/* Decorative shapes */
+.shape {
+    position: absolute;
+}
+
+.yellow-half {
+    width: 60px;
+    height: 60px;
+    background: yellow;
+    border-radius: 0 50% 50% 50%;
+    top: 40%;
+    right: 5%;
+}
+
+.red-circle {
+    width: 40px;
+    height: 40px;
+    background: red;
+    border-radius: 50%;
+    bottom: 5%;
+    right: 30%;
+}
+
+.star::before {
+    content: "✷";
+    font-size: 40px;
+    color: black;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+.small-triangle::before {
+    content: "▲";
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
